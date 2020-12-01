@@ -1,21 +1,6 @@
-# Template for FrontLoops [Elements] challenge
+# Boiling dots
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Build a component that has a text input with a submit button.
+Whenever you enter a number and submit it - an animated boiling circle with timer is added to the component.
+Once timer expires - circle should "pop".
+Several timers can be set at the same time.
