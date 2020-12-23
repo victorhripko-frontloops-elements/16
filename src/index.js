@@ -52,7 +52,7 @@ import './style.scss';
 
   const createBuble = (val) => {
     const value = val.trim();
-    if (!value) return;
+    if (!value || value <= 0) return;
 
     new Bubble(val, wrapper);
     input.value = null;
